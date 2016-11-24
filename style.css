@@ -1,4 +1,5 @@
 body {
+  font-size: 67,5%;
   margin: 0;
   padding: 0;
   background-color: none; }
@@ -8,27 +9,71 @@ body {
   justify-content: space-between; }
 
 .content {
-  display: flex; }
+  display: flex;
+  box-sizing: border-box; }
+  .content img {
+    border-bottom: transparent solid; }
 
 .contentlink {
   display: flex;
   justify-content: space-between; }
   .contentlink a {
-    padding-right: 20px;
+    padding-right: 2em;
     text-decoration: none;
     margin: auto; }
 
 .search {
-  border: 1px solid grey;
-  display: inline-flex; }
+  display: inline-flex;
+  width: 100%;
+  height: auto;
+  weight: auto; }
   .search div {
-    width: auto; }
+    width: 100%; }
+
+.contentSearch {
+  margin-right: 1%;
+  margin-left: 1%; }
 
 .container {
-  height: 5em;
-  weight: 5em;
-  width: 100%;
   margin-left: 15%;
-  border: solid red; }
+  margin-right: 15%;
+  border: solid red;
+  height: auto;
+  weight: auto;
+  width: auto;
+  justify-content: center; }
+
+.where {
+  border: groove grey; }
+
+.when {
+  border: groove grey; }
+
+.selectuser {
+  border: groove grey; }
+
+.rechercher {
+  border: groove grey; }
+
+.quadriExp {
+  display: flex;
+  border: solid blue;
+  height: 116%;
+  width: 116%; }
+
+.image1 {
+  background-image: url("http://placehold.it/350x150");
+  background-size: 100%;
+  height: 116%;
+  width: 116%; }
+
+.image2 {
+  background-image: url("http://placehold.it/350x150"); }
+
+.image3 {
+  background-image: url("http://placehold.it/350x150"); }
+
+.image4 {
+  background-image: url("http://placehold.it/350x150"); }
 
 /*# sourceMappingURL=style.css.map */
